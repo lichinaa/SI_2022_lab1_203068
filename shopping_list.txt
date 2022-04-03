@@ -1,5 +1,6 @@
 Milk x 5
 Egg x 5
 Ice cream x 5
-Bread x 5
+Orange x 5
 Water x 5
+Chips x 2
