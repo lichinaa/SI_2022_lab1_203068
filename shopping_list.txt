@@ -1,5 +1,5 @@
-Milk x 1
-Egg x 1
-Ice cream x 1
-Bread x 1
-Water x 1
+Milk x 5
+Egg x 5
+Ice cream x 5
+Bread x 5
+Water x 5
