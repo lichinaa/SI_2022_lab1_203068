@@ -1,0 +1,76 @@
+git init 
+git remote add origin https://github.com/lichinaa/SI_2022_lab1_203068.git
+git checkout -b master
+git clone https://github.com/lichinaa/SI_2022_lab1_203068.git
+cd SI_2022_lab1_203068 
+git add shopping_list.txt
+git commit “Add 5 items to the shopping list”
+git add shopping_list.txt
+git commit  "Add quantities to the items."
+git checkout -b branch1
+git checkout master
+git checkout -b branch2
+git log
+commit 44ce5c65f8df77d258025a4b15d9a8cc69bee661 (HEAD -> master, branch2, branch1)
+Author: lichinaa <lichinaamra@gmail.com>
+Date:   Sun Apr 3 02:14:03 2022 +0200
+
+    Add quantities to the items.
+
+commit bda3e387e3fc5ffc183539661ca7e0db75737f43
+Author: lichinaa <lichinaamra@gmail.com>
+Date:   Sun Apr 3 02:12:06 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f7bf1f022b51f7e1d146b620818c3991d76bd439 (origin/master, origin/HEAD)
+Author: lichinaa <91635874+lichinaa@users.noreply.github.com>
+Date:   Sun Apr 3 01:55:35 2022 +0200
+
+    Initial commit
+git push --all
+git checkout branch1
+//menuvame vo shopping_list.txt
+git add.
+git commit -m “Change quantity of item #5”
+git checkout master
+git commit -a -m "Change quantity of item #2"
+git push --all
+git checkout branch2
+git commit -a -m "Modify item #4"
+git log
+git add .
+git commit --amend
+[branch2 c83c55f] Modify item #4 and add item #6
+ Date: Sun Apr 3 12:46:03 2022 +0200
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+git log
+commit c83c55f3ed04f53fed467dcd22a63e2ded28d7d6 (HEAD -> branch2)
+Author: lichinaa <lichinaamra@gmail.com>
+Date:   Sun Apr 3 12:46:03 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 44ce5c65f8df77d258025a4b15d9a8cc69bee661 (origin/branch2)
+Author: lichinaa <lichinaamra@gmail.com>
+Date:   Sun Apr 3 02:14:03 2022 +0200
+
+    Add quantities to the items.
+
+commit bda3e387e3fc5ffc183539661ca7e0db75737f43
+Author: lichinaa <lichinaamra@gmail.com>
+Date:   Sun Apr 3 02:12:06 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f7bf1f022b51f7e1d146b620818c3991d76bd439
+Author: lichinaa <91635874+lichinaa@users.noreply.github.com>
+Date:   Sun Apr 3 01:55:35 2022 +0200
+
+    Initial commit
+
+git checkout master
+git merge branch1
+git merge branch2
+git add.
+git commit -m "Edit"
